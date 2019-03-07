@@ -9,7 +9,10 @@ module.exports = x => {
     }
 
     var minute = d.getMinutes();
-    if (minute < 10) {
+    if (minute == 0) {
+        minute = "o' clock"
+    }
+    else if (minute < 10) {
         minute = `0${minute}`;
     }
 
