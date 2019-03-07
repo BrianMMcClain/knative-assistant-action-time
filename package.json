@@ -1,0 +1,19 @@
+{
+  "name": "knative-assistant-action-time",
+  "version": "1.0.0",
+  "description": "Knative Assistant Time Action",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianMMcClain/knative-assistant-action-time.git"
+  },
+  "author": "Brian McClain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrianMMcClain/knative-assistant-action-time/issues"
+  },
+  "homepage": "https://github.com/BrianMMcClain/knative-assistant-action-time#readme"
+}
