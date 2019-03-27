@@ -1,6 +1,4 @@
 module.exports = x => {
-    process.env.TZ = "America/New_York"
-    
     d = new Date()
 
     var ampm = "AM";
