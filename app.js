@@ -1,4 +1,6 @@
 module.exports = x => {
+    process.env.TZ = "America/New_York"
+    
     d = new Date()
 
     var ampm = "AM";
@@ -6,6 +8,8 @@ module.exports = x => {
     if (hour > 12) {
         hour -= 12;
         ampm = "PM";
+    } else if (hour == 12) {
+        ampm = "PM"
     }
 
     var minute = d.getMinutes();
